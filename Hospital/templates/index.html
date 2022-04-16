@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+     <title>NUPmedicals</title>
+     <link rel="icon" href="../../static/images/mental-icon-2.jpg">
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     {% include 'importcss.html' %}
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+     {% include 'navbar.html' %}
+
+
+     <!-- HOME -->
+     <!-- <section id="home" class="slider" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                         <div class="owl-carousel owl-theme">
+                              <div class="item item-first">
+                                   <div class="caption">
+                                        <div class="col-md-offset-1 col-md-10">
+                                             <h3>Let's make your life happier</h3>
+                                             <h1>Healthy Living</h1>
+                                             <a href="{% url 'doctors' %}" class="section-btn btn btn-default smoothScroll">Meet Our Doctors</a>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item item-second">
+                                   <div class="caption">
+                                        <div class="col-md-offset-1 col-md-10">
+                                             <h3>Aenean luctus lobortis tellus</h3>
+                                             <h1>New Lifestyle</h1>
+                                             <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More About Us</a>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item item-third">
+                                   <div class="caption">
+                                        <div class="col-md-offset-1 col-md-10">
+                                             <h3>Professional and personal care</h3>
+                                             <h1>Your Health Benefits</h1>
+                                             <a href="#google-map" class="section-btn btn btn-default btn-blue smoothScroll">Meet Us</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+               </div>
+          </div>
+     </section> -->
+
+
+     <!-- ABOUT -->
+     <section id="about">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="about-info">
+                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to NUPmedicals <br><i class="fa fa-h-square"></i>ealth Care</h2>
+                              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                                   <p>Access to health care varies in a third world country like <b><i>Bangladesh</i></b> influenced by social and economic conditions as well as health policies. Providing health care services means "the timely use of personal health services to achieve the best possible health outcomes".Factors to consider in terms of healthcare access include <b>financial limitations</b> (such as insurance coverage), <b>geographic barriers</b> (such as additional <b>transportation costs</b>, the possibility to take paid time off of work to use such services), and <b>personal limitations</b> (lack of <b>communications</b> with healthcare providers, poor health literacy, low income).</p>
+                              </div>
+                              <figure class="profile wow fadeInUp" data-wow-delay="1s">
+                                   <img src="images/author-image.jpg" class="img-responsive" alt="">
+                                   <figcaption>
+                                        <h3>Raisul kabir</h3>
+                                        <p>CEO / Founder, NUPmedicals</p>
+                                   </figcaption>
+                              </figure>
+                              <figure class="profile wow fadeInUp" data-wow-delay="1s" style="padding-top: 20px;">
+                                   <img src="images/author-image.jpg" class="img-responsive" alt="">
+                                   <figcaption>
+                                        <h3>Naima Ahmed Nup</h3>
+                                        <p>Cofounder, NUPmedicals</p>
+                                   </figcaption>
+                              </figure>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+       
+
+
+     {% include 'footer.html' %}
+     {% include 'importscripts.html' %}
+</body>
+</html>
