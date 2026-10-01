@@ -262,11 +262,7 @@ Possible extensions include:
 
 ## Author
 
-**Md. Raisul Kabir News**
-
-Lecturer
-Department of Computer Science and Engineering
-BRAC University
+**Raisul Kabir News**
 
 GitHub:
 https://github.com/RaisulKabir27/NUPmedicals
